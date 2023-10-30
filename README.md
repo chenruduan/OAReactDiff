@@ -23,9 +23,9 @@ Sounds easy? There is one caveat! Conventional SE(3) won't apply here. Why? Thre
 
 Since OA-ReactDiff maintains **all symmetries and constraints** in chemical reactions, it does not require any pre-processing (e.g., atom mapping, fragment alignment) and post-processting (e.g., coverting distance matrix to 3D geometry), which sometimes are infeasible in exploring unknown reactions. OA-ReactDiff reduces the transition state search cost **from days in using density functional theory to seconds**. Due to the stochastic nature of DDPM, OA-ReactDiff can generate unintended reactions "beyond design", **complementing the chemical intuition-based reaction exploration** that people have been using for decades.
 
-<p style="color:purple; font-weight:bold">
-Want to learn more? Get a deep dive with our notebook tutorial at OA-ReactDiff.ipynb
-</p>
+
+### Want to learn more? 
+Get a deep dive with our notebook tutorial at `OA-ReactDiff.ipynb` after installing the package or start with our docker container.
 
 ### Installation
 1. Clone this repo `git clone https://github.com/hjkgrp/dfa_recommender.git` and `cd OAReactDiff`  
