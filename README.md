@@ -28,7 +28,7 @@ Since OA-ReactDiff maintains **all symmetries and constraints** in chemical reac
 Get a deep dive with our notebook tutorial at `OA-ReactDiff.ipynb` after installing the package or start with our docker container.
 
 ### Installation
-1. Clone this repo `git clone https://github.com/hjkgrp/dfa_recommender.git` and `cd OAReactDiff`  
+1. Clone this repo `git clone git@github.com:chenruduan/OAReactDiff.git` and `cd OAReactDiff`  
 2. Setup a conda environment with the proived yaml file `conda env create -f env.yaml`
 3. Local package installation `conda activate oa_reactdiff && pip install -e .`
 4. Test everything works as expected by `pytest oa_reactdiff/tests/`
@@ -45,6 +45,23 @@ If you are familiar with containerization and would like to use it in your proje
     year={2023},
     eprint={2304.06174},
     archivePrefix={arXiv},
+}
+
+@Article{OA-ReactDiff,
+author={Duan, Chenru
+and Du, Yuanqi
+and Jia, Haojun
+and Kulik, Heather J.},
+title={Accurate transition state generation with an object-aware equivariant elementary reaction diffusion model},
+journal={Nature Computational Science},
+year={2023},
+month={Dec},
+day={01},
+volume={3},
+number={12},
+pages={1045-1055},
+doi={10.1038/s43588-023-00563-7},
+url={https://doi.org/10.1038/s43588-023-00563-7}
 }
 ```
 
