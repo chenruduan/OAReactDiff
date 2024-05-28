@@ -48,20 +48,20 @@ If you are familiar with containerization and would like to use it in your proje
 }
 
 @Article{OA-ReactDiff,
-author={Duan, Chenru
-and Du, Yuanqi
-and Jia, Haojun
-and Kulik, Heather J.},
-title={Accurate transition state generation with an object-aware equivariant elementary reaction diffusion model},
-journal={Nature Computational Science},
-year={2023},
-month={Dec},
-day={01},
-volume={3},
-number={12},
-pages={1045-1055},
-doi={10.1038/s43588-023-00563-7},
-url={https://doi.org/10.1038/s43588-023-00563-7}
+    author={Duan, Chenru
+    and Du, Yuanqi
+    and Jia, Haojun
+    and Kulik, Heather J.},
+    title={Accurate transition state generation with an object-aware equivariant elementary reaction diffusion model},
+    journal={Nature Computational Science},
+    year={2023},
+    month={Dec},
+    day={01},
+    volume={3},
+    number={12},
+    pages={1045-1055},
+    doi={10.1038/s43588-023-00563-7},
+    url={https://doi.org/10.1038/s43588-023-00563-7}
 }
 ```
 
