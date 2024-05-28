@@ -34,16 +34,12 @@ jobs:
           df -h
           ulimit -a
 
-      # More info on options: https://github.com/marketplace/actions/provision-with-micromamba
+      # More info on options: https://github.com/mamba-org/setup-micromamba
       - name: Install Conda environment with Micromamba
         uses: mamba-org/setup-micromamba@v1
         with:
           environment-file: env.yaml
           environment-name: oa_reactdiff
-          # channels: conda-forge,defaults
-          create-args: >-
-            python=${{ matrix.python-version }}
-          cache-environment: true
 
       - name: Install oa_reactdiff package locally
         # conda setup requires this special shell
